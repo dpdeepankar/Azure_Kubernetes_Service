@@ -7,4 +7,5 @@ locals {
   AKS_CLUSTER_NAME = "demoaks"
   AKS_DEFAULT_NODE_POOL_NAME = "system"
   AKS_DEFAULT_NODE_POOL_SIZE = "Standard_D2_v2"
+  TAGS = {"Environment"="Dev","Application"="Demo"}
 }

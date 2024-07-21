@@ -9,6 +9,7 @@ module "virtual-network" {
         address_space = local.VNET_ADDRESS_SPACE
     }
   }
+  tags = local.TAGS
 
   depends_on = [ module.resource-group ]
 }
