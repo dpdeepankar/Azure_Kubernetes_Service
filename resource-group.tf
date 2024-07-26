@@ -3,12 +3,12 @@ module "resource-group" {
 
   resourcegroup = {
     rg1 = {
-        name = local.RESOURCE_GROUP_NAME
-        location = local.LOCATION
+      name     = local.RESOURCE_GROUP_NAME
+      location = local.LOCATION
 
     },
     rg2 = {
-      name = local.AKS_RESOURCE_GROUP_NAME
+      name     = local.AKS_RESOURCE_GROUP_NAME
       location = local.LOCATION
     }
   }
